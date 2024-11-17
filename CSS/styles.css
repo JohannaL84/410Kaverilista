@@ -1,0 +1,53 @@
+body {
+    background-image: url("../IMG/tausta.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+    border-color: rgb(8, 66, 1);
+
+    width: 275px;
+  }
+
+  table.center {
+    margin-left: auto; 
+    margin-right: auto;
+    height: 340px;
+  }
+
+  table button {
+    background-color: rgb(52, 250, 3);
+    font-family: Georgia, serif;
+  }
+
+  table h2 {
+    color: rgb(212, 43, 212);
+    font-family: Georgia, serif;
+  }
+
+  table td {
+    background-color: rgb(200, 252, 193);
+  }
+
+  table ::placeholder {
+    background-color: azure;
+    font-family: Georgia, serif;
+  }
+
+
+  ul.myUL {
+    display: inline-block;
+    text-align: left;
+  }
+
+  h1 {
+    text-align: center;
+    color: rgb(194, 28, 194);
+    font-family: Georgia, serif;
+    font-size: 40px;
+
+  }

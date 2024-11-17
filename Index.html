@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaverilista</title>
+    <link rel="stylesheet" href="./CSS/styles.css">
+</head>
+<body>
+    <h1>Kaverilista</h1>
+
+<table class="center">
+    <td height="50" align="center">
+    <div id="versio1">
+        <h2>10 kaveria</h2>
+        <button onClick="versio1()">Lisää kaverit</button>
+    </div>
+    <br>    
+    </td>
+
+<td height="50" align="center">
+    <div id="versio2">
+        <h2>Kaikki kaverit</h2>
+        <input type="text" size="15" id="uusiKaveri" placeholder="Kaverin nimi">
+        <button onclick="lisää()">Lisää</button>
+        <button onclick="järjestä()">Järjestä</button>
+    </div>
+    <br>
+</td>
+<tr>
+    <td valign="top" align="center"><ul class="myUL" id="kaveriLista1"></ul></td>
+    <td valign="top" align="center"><ul class="myUL" id="kaveriLista2"></ul></td>
+</tr>
+</table>
+
+    <script src="main.js"></script>
+</body>
+</html>
